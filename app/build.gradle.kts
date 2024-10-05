@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -72,5 +73,9 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.compose.state.events)
     implementation(libs.androidx.lifecycle.runtime.compose)
+    // Room
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
 
 }
