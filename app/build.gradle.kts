@@ -77,5 +77,13 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation (libs.converter.simplexml)
+    implementation (libs.logging.interceptor)
+    implementation (libs.okhttp)
+    // Coil
+    implementation(libs.coil.compose)
+    implementation(libs.coil.svg)
 
 }
