@@ -83,6 +83,10 @@ dependencies {
     implementation (libs.converter.simplexml)
     implementation (libs.logging.interceptor)
     implementation (libs.okhttp)
+
+    //KeyPrefs
+    implementation(libs.ksprefs)
+
     // Coil
     implementation(libs.coil.compose)
     implementation(libs.coil.svg)
