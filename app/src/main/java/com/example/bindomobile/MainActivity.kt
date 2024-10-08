@@ -9,8 +9,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.core.view.WindowCompat
+import com.example.bindomobile.ui.app_host.AppContainerScreen
 import com.example.bindomobile.ui.theme.BindoMobileTheme
-import com.example.bindomobile.ui.theme.app_host.AppContainerScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
