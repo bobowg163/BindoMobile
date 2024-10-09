@@ -86,7 +86,9 @@ dependencies {
 
     //KeyPrefs
     implementation(libs.ksprefs)
-
+    //Security biometric
+    implementation(libs.androidx.security.crypto)
+    implementation(libs.androidx.biometric.ktx)
     // Coil
     implementation(libs.coil.compose)
     implementation(libs.coil.svg)
