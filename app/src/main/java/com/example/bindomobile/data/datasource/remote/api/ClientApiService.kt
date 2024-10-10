@@ -38,16 +38,15 @@ interface ClientApiService {
     @POST("grantee/{token}")
     suspend fun grantee(
         @Path("token") token: String,
-        @Field("account") account: String
-    ):Response<PersonneInfo>
+        @Field("account") account: String = ""
+    ): Response<PersonneInfo>
 
     @FormUrlEncoded
     @POST("accounts/{token}")
     suspend fun accounts(
-        @Path("token") token: String,
-        @Field("member") member: String="",
-        @Field("sfd") sfd: String=""
-    ):Response<CompteSFDs>
+        @Path("token") token: String, @Field("member") member: String = "",
+        @Field("sfd") sfd: String = ""
+    ): Response<CompteSFDs>
 
     @FormUrlEncoded
     @POST("balance/{agency}/{token}")
