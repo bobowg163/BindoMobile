@@ -3,7 +3,6 @@ package com.example.bindomobile.data.datasource.remote.dtos
 import org.simpleframework.xml.Element
 import org.simpleframework.xml.ElementList
 import org.simpleframework.xml.Root
-import java.sql.Statement
 
 /**
  * @author bobo

@@ -34,7 +34,7 @@ class ProfileRepositoryMock(
             firstName = personInfo.firstname,
             lastName = personInfo.lastname,
             nickname = buildNickname(personInfo.firstname, personInfo.lastname),
-            email = "example@example.com",
+            email = "bobowg@qq.com",
             profilePicUrl = "https://api.dicebear.com/7.x/open-peeps/svg?seed=Bailey"
         )
     }

@@ -92,5 +92,8 @@ dependencies {
     // Coil
     implementation(libs.coil.compose)
     implementation(libs.coil.svg)
+    //koil
+    implementation(libs.koin.androidx.compose)
+    implementation(libs.koin.androidx.workmanager)
 
 }
